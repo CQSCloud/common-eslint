@@ -27,7 +27,7 @@ module.exports = {
      * Strict mode
      */
     // babel inserts 'use strict'; for us
-    'strict': [2, 'global'],          // http://eslint.org/docs/rules/strict
+    'strict': [0, 'global'],          // http://eslint.org/docs/rules/strict
 
     /**
      * ES6
