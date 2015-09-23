@@ -8,14 +8,14 @@ Common eslint rules accros all projects. Based on AirBnb standards.
 Include it in your `package.json` -
 
 ```js
-"common-eslint": "CQSCloud/common-eslint.git"
+"eslint-config-common": "CQSCloud/common-eslint.git"
 ```
 
 Adapt your project-root `.eslintrc` to contain -
 
 ```js
 {
-  "extends": "common-eslint",
+  "extends": "common",
   "parser": "babel-eslint"
 }
 ```
