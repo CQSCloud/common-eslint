@@ -34,9 +34,9 @@ module.exports = {
      */
     'no-var': 2,                     // http://eslint.org/docs/rules/no-var
     'prefer-const': 2,               // http://eslint.org/docs/rules/prefer-const
-    "no-const-assign": 2,
-    "constructor-super": 2,
-    "prefer-arrow-callback": 1,
+    'no-const-assign': 2,
+    'constructor-super': 2,
+    'prefer-arrow-callback': 1,
 
     /**
      * Variables
@@ -137,7 +137,7 @@ module.exports = {
     ],
     'id-length': [2, {               // http://eslint.org/docs/rules/id-length
       'min': 2,
-      'properties': 'never',
+      'properties': 'always',
       'exceptions': ['_']
     }],
     'camelcase': [2, {               // http://eslint.org/docs/rules/camelcase
@@ -181,6 +181,6 @@ module.exports = {
     'spaced-comment': [2, 'always',  {// http://eslint.org/docs/rules/spaced-comment
       'exceptions': ['-', '+'],
       'markers': ['=', '!']           // space here to support sprockets directives
-    }],
+    }]
   }
 };
