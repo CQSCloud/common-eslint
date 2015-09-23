@@ -138,7 +138,7 @@ module.exports = {
     'id-length': [2, {               // http://eslint.org/docs/rules/id-length
       'min': 2,
       'properties': 'never',
-      'exceptions': ['_', 'H', 'e', 'l', 'r']
+      'exceptions': ['_']
     }],
     'camelcase': [2, {               // http://eslint.org/docs/rules/camelcase
       'properties': 'never'
