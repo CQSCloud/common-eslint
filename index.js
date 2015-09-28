@@ -37,6 +37,8 @@ module.exports = {
     'no-const-assign': 2,
     'constructor-super': 2,
     'prefer-arrow-callback': 1,
+    'prefer-template': 2,
+    'no-useless-concat': 2,
 
     /**
      * Variables
