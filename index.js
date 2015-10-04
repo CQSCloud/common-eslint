@@ -10,7 +10,7 @@ module.exports = {
     'classes': true,
     'defaultParams': true,
     'destructuring': true,
-    'forOf': true,
+    'forOf': false,
     'generators': false,
     'modules': true,
     'objectLiteralComputedProperties': true,
@@ -183,6 +183,15 @@ module.exports = {
     'spaced-comment': [2, 'always',  {// http://eslint.org/docs/rules/spaced-comment
       'exceptions': ['-', '+'],
       'markers': ['=', '!']           // space here to support sprockets directives
-    }]
+    }],
+    'max-len': [1, 120, 4, {'ignoreComments': true}],
+    'max-params': [1, 5],
+    'func-style': [2, 'expression'],
+    'space-in-parens': [1, 'never'],
+    'object-curly-spacing': [1, 'always'],
+    'computed-property-spacing': [1, 'never'],
+    'complexity': [2, 10],
+    'max-depth': [2, 3],
+    'arrow-spacing': [1, { 'before': true, 'after': true }]
   }
 };
