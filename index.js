@@ -162,6 +162,7 @@ module.exports = {
     'no-multiple-empty-lines': [2, { // http://eslint.org/docs/rules/no-multiple-empty-lines
       'max': 2
     }],
+    'no-ternary': 2,
     'no-nested-ternary': 2,          // http://eslint.org/docs/rules/no-nested-ternary
     'no-new-object': 2,              // http://eslint.org/docs/rules/no-new-object
     'no-spaced-func': 2,             // http://eslint.org/docs/rules/no-spaced-func
