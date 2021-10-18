@@ -4,26 +4,31 @@
     "browser": true,
     "node": true
   },
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "forOf": false,
-    "generators": false,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "spread": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-    "jsx": false
+  "parserOptions": {
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "blockBindings": true,
+      "classes": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "forOf": false,
+      "generators": false,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralDuplicateProperties": false,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "spread": true,
+      "superInFunctions": true,
+      "templateStrings": true,
+      "jsx": false
+    }
   },
   "rules": {
-    "strict": [0, "global"],
+    "strict": [
+      0,
+      "global"
+    ],
     "no-var": 2,
     "prefer-const": 2,
     "no-const-assign": 2,
@@ -34,13 +39,22 @@
     "no-shadow": 2,
     "no-shadow-restricted-names": 2,
     "no-undef": 2,
-    "no-unused-vars": [2, {
-      "vars": "local",
-      "args": "after-used"
-    }],
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "local",
+        "args": "after-used"
+      }
+    ],
     "no-use-before-define": 2,
-    "comma-dangle": [2, "never"],
-    "no-cond-assign": [2, "always"],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "no-cond-assign": [
+      2,
+      "always"
+    ],
     "no-console": 1,
     "no-debugger": 1,
     "no-alert": 1,
@@ -61,11 +75,17 @@
     "use-isnan": 2,
     "block-scoped-var": 2,
     "consistent-return": 2,
-    "curly": [2, "all"],
+    "curly": [
+      2,
+      "all"
+    ],
     "default-case": 2,
-    "dot-notation": [2, {
-      "allowKeywords": true
-    }],
+    "dot-notation": [
+      2,
+      {
+        "allowKeywords": true
+      }
+    ],
     "eqeqeq": 2,
     "guard-for-in": 2,
     "no-caller": 2,
@@ -97,77 +117,170 @@
     "no-with": 2,
     "radix": 2,
     "vars-on-top": 2,
-    "wrap-iife": [2, "any"],
+    "wrap-iife": [
+      2,
+      "any"
+    ],
     "yoda": 2,
     "indent": [
-      2, 2, {
+      2,
+      2,
+      {
         "SwitchCase": 1
       }
     ],
     "brace-style": [
       2,
-      "1tbs", {
+      "1tbs",
+      {
         "allowSingleLine": true
       }
     ],
     "quotes": [
-      2, "single", "avoid-escape"
+      2,
+      "single",
+      "avoid-escape"
     ],
-    "id-length": [2, {
-      "min": 2,
-      "properties": "always",
-      "exceptions": ["_"]
-    }],
-    "camelcase": [2, {
-      "properties": "never"
-    }],
-    "comma-spacing": [2, {
-      "before": false,
-      "after": true
-    }],
-    "comma-style": [2, "last"],
+    "id-length": [
+      2,
+      {
+        "min": 2,
+        "properties": "always",
+        "exceptions": [
+          "_"
+        ]
+      }
+    ],
+    "camelcase": [
+      2,
+      {
+        "properties": "never"
+      }
+    ],
+    "comma-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "comma-style": [
+      2,
+      "last"
+    ],
     "eol-last": 2,
     "func-names": 0,
-    "key-spacing": [2, {
-      "beforeColon": false,
-      "afterColon": true
-    }],
-    "new-cap": [2, {
-      "newIsCap": true
-    }],
-    "no-multiple-empty-lines": [2, {
-      "max": 2
-    }],
+    "key-spacing": [
+      2,
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
+    "new-cap": [
+      2,
+      {
+        "newIsCap": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 2
+      }
+    ],
     "no-ternary": 2,
     "no-nested-ternary": 2,
     "no-new-object": 2,
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
-    "no-extra-parens": [2, "functions"],
+    "no-extra-parens": [
+      2,
+      "functions"
+    ],
     "no-underscore-dangle": 0,
-    "one-var": [2, "never"],
-    "padded-blocks": [2, "never"],
-    "semi": [2, "always"],
-    "semi-spacing": [2, {
-      "before": false,
-      "after": true
-    }],
+    "one-var": [
+      2,
+      "never"
+    ],
+    "padded-blocks": [
+      2,
+      "never"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "semi-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     "keyword-spacing": 2,
     "space-before-blocks": 2,
-    "space-before-function-paren": [2, "never"],
+    "space-before-function-paren": [
+      2,
+      "never"
+    ],
     "space-infix-ops": 2,
-    "spaced-comment": [2, "always",  {
-      "exceptions": ["-", "+"],
-      "markers": ["=", "!"]
-    }],
-    "max-len": [1, 120, 4, {"ignoreComments": true}],
-    "max-params": [1, 5],
-    "func-style": [2, "expression"],
-    "space-in-parens": [1, "never"],
-    "object-curly-spacing": [1, "always"],
-    "computed-property-spacing": [1, "never"],
-    "complexity": [2, 10],
-    "max-depth": [2, 3],
-    "arrow-spacing": [1, { "before": true, "after": true }]
+    "spaced-comment": [
+      2,
+      "always",
+      {
+        "exceptions": [
+          "-",
+          "+"
+        ],
+        "markers": [
+          "=",
+          "!"
+        ]
+      }
+    ],
+    "max-len": [
+      1,
+      120,
+      4,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "max-params": [
+      1,
+      5
+    ],
+    "func-style": [
+      2,
+      "expression"
+    ],
+    "space-in-parens": [
+      1,
+      "never"
+    ],
+    "object-curly-spacing": [
+      1,
+      "always"
+    ],
+    "computed-property-spacing": [
+      1,
+      "never"
+    ],
+    "complexity": [
+      2,
+      10
+    ],
+    "max-depth": [
+      2,
+      3
+    ],
+    "arrow-spacing": [
+      1,
+      {
+        "before": true,
+        "after": true
+      }
+    ]
   }
 }
